@@ -11,7 +11,15 @@ const latestWorksArrow = document.querySelector('.latest-works-arrow')
 const blackLogo = document.querySelector('.black-logo')
 const contactForm = document.querySelector('.contact')
 const sendButton = document.querySelector('.submit-btn')
-const mainSection = document.querySelector('.main-section')
+const mainSection = document.querySelector('.main-section');
+
+const changeyear=document.querySelector('#year');
+function getyear(){
+  let year= new Date().getFullYear();
+  changeyear.innerText= year;
+
+}
+getyear()
 
 //Sun and Moon icon document selector
 const icon = document.getElementById("icon")
