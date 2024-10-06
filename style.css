@@ -46,6 +46,7 @@ li {
   list-style: none;
 }
 
+
 canvas {
   -ms-touch-action: auto;
       touch-action: auto;
@@ -54,6 +55,7 @@ canvas {
 /* sun and moon icon for theme toggle */
 #icon {
   width: 30px;
+  
   cursor: pointer;
   color: var(--light);
 }
